@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Sardar Vallabhbhai Patel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #1e272e;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+
+        /* Container */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            background: #2f3640;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            justify-content: space-between;
+        }
+
+        /* Left Section */
+        .left {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 10px;
+            border: 4px solid #e67e22;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Headings */
+        h1 {
+            font-size: 2.5em;
+            color: #e67e22;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        h2 {
+            color: #f39c12;
+            font-size: 1.5em;
+            border-bottom: 2px solid #e67e22;
+            padding-bottom: 5px;
+        }
+
+        p, ul {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        /* Right Section */
+        .right {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #485460;
+            margin: 8px 0;
+            padding: 12px;
+            border-radius: 5px;
+            border-left: 5px solid #f39c12;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+        ul li:hover {
+            background: #596275;
+            transform: translateX(5px);
+        }
+
+        /* Extra Section */
+        .extra {
+            background: #3b3b3b;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                padding: 15px;
+            }
+
+            .left, .right {
+                padding: 15px;
+            }
+
+            img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>Sardar Vallabhbhai Patel</h1>
+            <img src="sardarbal.jpg" alt="Sardar Vallabhbhai Patel">
+            <br>
+            <p><strong>Birth:</strong> October 31, 1875</p>
+            <p><strong>Death:</strong> December 15, 1950</p>
+            <br>
+            <div class="extra">
+                <h2>Contributions</h2>
+                <p><strong>Unification of India:</strong> Patel's leadership in the integration of princely states prevented the balkanization of India and ensured a united and strong nation. His diplomacy and firm resolve convinced rulers of princely states to accede to India, avoiding potential conflicts.</p>
+                <p><strong>Role in the Freedom Movement:</strong> He played a pivotal role in the freedom movement by actively participating in Gandhi's Non-Cooperation Movement and Civil Disobedience Movement. His leadership in the Bardoli Satyagraha of 1928 led to major agrarian reforms.</p>
+                <p><strong>Architect of India's Administrative System:</strong> As the first Home Minister of India, Patel established key institutions such as the Indian Administrative Service (IAS) and Indian Police Service (IPS), which remain the backbone of India's governance today.</p>
+                <p><strong>Economic Reforms:</strong> He also took significant steps in rebuilding India's economy post-independence, ensuring a stable foundation for future growth.</p>
+            </div>
+        </div>
+        <div class="right">
+            <br>
+            <h2>Leadership</h2>
+            <p>Sardar Vallabhbhai Patel, also known as the "Iron Man of India," was a key figure in India's struggle for independence and played a crucial role in unifying the nation post-independence.</p>
+            <h2>Achievements</h2>
+            <ul>
+                <li>Instrumental in the integration of over 500 princely states into India</li>
+                <li>First Deputy Prime Minister and Home Minister of India</li>
+                <li>Led the Bardoli Satyagraha and contributed to India's independence movement</li>
+                <li>Advocated for strong governance and administrative efficiency</li>
+                <li>Honored with the Bharat Ratna posthumously in 1991</li>
+            </ul>
+            <br>
+            <h2>Legacy</h2>
+            <p><strong>Statue of Unity:</strong> Patel's unwavering leadership and vision helped shape modern India. The Statue of Unity, the world's tallest statue, was erected in his honor in Gujarat. His policies and vision continue to inspire leaders and citizens alike.</p>
+            <p><strong>The Bismarck of India:</strong> He is remembered as the 'Bismarck of India' for his diplomatic skills in integrating princely states and securing India's sovereignty. His contribution to nation-building is unparalleled.</p>
+            <p><strong>Influence on Future Generations:</strong> Schools, institutions, and government programs across India continue to be named in his honor, ensuring that his legacy remains alive for future generations.</p>
+        </div>
+    </div>
+</body>
+</html>
